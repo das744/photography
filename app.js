@@ -2,7 +2,7 @@ const express= require('express');
 const ejs = require('ejs');
 const app = express()
 
-const port =  process.env.PORT|| 7000;
+const port =  Process.env.PORT|| 7000;
 
 //all static files
 app.use(express.static('public'))
@@ -35,5 +35,5 @@ app.get('/*', (req,res) => {
 })
 //listen to the port
 app.listen(port, ()=>{
-    console.log('listening to the port')
+    console.log('listening to the port ${port}')
 })
