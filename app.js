@@ -1,8 +1,8 @@
 const express= require('express');
-
+const ejs = require('ejs');
 const app = express()
 
-const port =  7000
+const port =  process.env.PORT|| 7000;
 
 //all static files
 app.use(express.static('public'))
