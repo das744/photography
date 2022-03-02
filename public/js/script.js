@@ -1,4 +1,3 @@
-// from protography-site-master(mr.web)
 
 const showBtn = document.querySelector('.navBtn');
 const topNav = document.querySelector('.top-nav');
@@ -13,5 +12,3 @@ showBtn.addEventListener('click', function(){
     }
 });
 
-/* Lightbox */
-var lightbox = new SimpleLightbox('.gallery a', { /* options */ });
